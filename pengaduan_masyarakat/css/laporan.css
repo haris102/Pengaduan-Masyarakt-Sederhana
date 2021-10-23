@@ -1,0 +1,127 @@
+.tglPengaduan {
+    margin-top: -10px;
+    font-style: italic;
+    float: right;
+}
+
+body {
+    /* background: #f2f5f7; */
+    /* background: lightblue; */
+    max-height: 1000vh;
+    background-image: url('../img/smkn1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    font: 14px sans-serif;
+    padding: 20px;
+}
+
+img {
+    margin-top: 30px;
+    margin-left: 20px;
+    width: 80px;
+    height: 80px;
+    border-radius: 3px;
+    box-shadow: 1px 1px 3px black;
+    float: left;
+}
+
+.identitas {
+    margin-left: 120px;
+    margin-top: 30px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.identitas-pts {
+    margin-left: 50px;
+    margin-top: 50px;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.isi {
+    margin-top: 60px;
+    font-size: 15.5px;
+}
+
+h2,h3 {
+    text-align: center;
+}
+
+.kertas {
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    margin: 26px auto 0;
+    max-width: 550px;
+    min-height: 300px;
+    padding: 24px;
+    position: relative;
+    width: 80%;
+    }
+
+.kertas:before,
+.kertas:after {
+    content: "";
+    height: 98%;
+    position: absolute;
+    width: 100%;
+    z-index: -1;
+    }
+
+.kertas:before {
+    background: #fafafa;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.2);
+    left: -5px;
+    top: 4px;
+    transform: rotate(-2.5deg);
+    }
+
+.kertas:after {
+    background: #f6f6f6;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.2);
+    right: -3px;
+    top: 1px;
+    transform: rotate(1.4deg);
+    }
+
+.btn-tanggapan button {
+    /* background-color: salmon; */
+    margin-top: 20px;
+    margin-left: 40%;
+    /* margin: auto; */
+}
+
+.body-tanggapan {
+    background-color: #fafafa;
+    width: 50%;
+    margin: 30px auto;
+    /* background-color: red; */
+    box-shadow: 1px 1px 5px #444;
+    padding-bottom: 20px;
+}
+
+.element-tanggapan {
+    /* margin-left: 10%; */
+    margin: auto;
+    padding-top: 20px;
+}
+
+.btn-konfirm button{
+    /* margin-bottom: 50px; */
+    margin-left: 70%;
+    color: #222;
+    background-color: #eee;
+    border: 2px #666 solid;
+    width: 70px;
+    border-radius: 5px;
+}
+
+td {
+    display: block;
+    margin-bottom: 5px;
+}
+
+table{
+    margin: auto;
+}

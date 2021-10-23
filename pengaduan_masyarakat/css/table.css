@@ -1,0 +1,101 @@
+body {
+    margin: 0;
+    padding: 0;
+    /* background: lightblue; */
+    height: 100vh;
+    /* background: #f2f5f7; */
+    background-image: url('../img/18443735_460010247671806_16694683908440064_n.jpg');
+    /* background: lightblue; */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.logout {
+    background-color: rgb(255, 61, 61);
+    color: #444;
+    width: 75px;
+    padding: 5px;
+    border-radius: 25px;
+    transition: .2s;
+    color: #f2f5f7;
+    text-decoration: none;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.logout:hover {
+    background: rgb(211, 5, 5);
+}
+
+.judul {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    color: #003620;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.3);
+    margin-top: 100px;
+}
+
+/* design table */
+.container table{
+    margin: auto;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+.table1 {
+    font-family: sans-serif;
+    color: #232323;
+    border-collapse: collapse;
+    width: 50%;
+    border: 1px solid #f2f5f7;
+}
+
+.table1 tr th {
+    background: #35a9db;
+    color: #fff;
+    font-weight: normal;
+}
+
+.table1, th, td {
+    padding: 8px 20px;
+    text-align: center;
+}
+
+.table1 tr:hover {
+    background-color: lightcyan;
+}
+
+.table1 tr:nth-child(2n) {
+    background-color: rgb(223, 223, 223);
+}
+
+.table1 tr:nth-child(2n-1) {
+    background-color: #f2f5f7;
+}
+
+/* .table tr td, a {
+    display: inline-block;
+    width: 90px;
+    padding: 5px;
+    background-color: #35a9db;
+    text-decoration: none;
+    border-radius: 50px;
+    color: #fff;
+    transition: .2s;
+} */
+.isi-laporan {
+    display: inline-block;
+    width: 90px;
+    padding: 3px;
+    background-color: #35a9db;
+    text-decoration: none;
+    border-radius: 50px;
+    color: #fff;
+    transition: .2s;
+    font-size: 15px;
+}
+
+.isi-laporan:hover {
+    background-color: rgb(94, 182, 255);
+    box-shadow: 0 0 5px #999;
+}
